@@ -24,61 +24,7 @@
   "model_image": "",
   "model_gif": "",
   "performance": {
-    "vs680-32": {
-      "offline": {
-        "inference-time": null
-      },
-      "online": {
-        "cpu": {
-          "inference-time": 24.45,
-          "init-time": 19.22,
-          "num-threads": 4
-        },
-        "npu": {
-          "inference-time": null
-        },
-        "gpu": {
-          "inference-time": null
-        }
-      }
-    },
-    "vs640-32": {
-      "offline": {
-        "inference-time": null
-      },
-      "online": {
-        "cpu": {
-          "inference-time": 26.33,
-          "init-time": 128.96,
-          "num-threads": 4
-        },
-        "npu": {
-          "inference-time": null
-        },
-        "gpu": {
-          "inference-time": null
-        }
-      }
-    },
-    "vs680-64": {
-      "offline": {
-        "inference-time": null
-      },
-      "online": {
-        "cpu": {
-          "inference-time": 20.66,
-          "init-time": 17.95,
-          "num-threads": 4
-        },
-        "npu": {
-          "inference-time": null
-        },
-        "gpu": {
-          "inference-time": null
-        }
-      }
-    },
-    "vs640-64": {
+    "sl1640": {
       "offline": {
         "inference-time": null
       },
@@ -86,6 +32,24 @@
         "cpu": {
           "inference-time": 18.05,
           "init-time": 118.65,
+          "num-threads": 4
+        },
+        "npu": {
+          "inference-time": null
+        },
+        "gpu": {
+          "inference-time": null
+        }
+      }
+    },
+    "sl1680": {
+      "offline": {
+        "inference-time": null
+      },
+      "online": {
+        "cpu": {
+          "inference-time": 20.66,
+          "init-time": 17.95,
           "num-threads": 4
         },
         "npu": {

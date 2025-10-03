@@ -24,67 +24,7 @@
   "model_image": "",
   "model_gif": "",
   "performance": {
-    "vs680-32": {
-      "offline": {
-        "inference-time": 2.32,
-        "init-time": 1.84
-      },
-      "online": {
-        "cpu": {
-          "inference-time": 39.01,
-          "init-time": 15.52,
-          "num-threads": 4
-        },
-        "npu": {
-          "inference-time": 6.01,
-          "init-time": 484.07
-        },
-        "gpu": {
-          "inference-time": null
-        }
-      }
-    },
-    "vs640-32": {
-      "offline": {
-        "inference-time": 4.13,
-        "init-time": 2.48
-      },
-      "online": {
-        "cpu": {
-          "inference-time": 33.59,
-          "init-time": 17.48,
-          "num-threads": 4
-        },
-        "npu": {
-          "inference-time": 9.72,
-          "init-time": 702.83
-        },
-        "gpu": {
-          "inference-time": null
-        }
-      }
-    },
-    "vs680-64": {
-      "offline": {
-        "inference-time": 2.32,
-        "init-time": 1.84
-      },
-      "online": {
-        "cpu": {
-          "inference-time": 28.6,
-          "init-time": 14.34,
-          "num-threads": 4
-        },
-        "npu": {
-          "inference-time": 6.01,
-          "init-time": 381.88
-        },
-        "gpu": {
-          "inference-time": null
-        }
-      }
-    },
-    "vs640-64": {
+    "sl1640": {
       "offline": {
         "inference-time": 4.13,
         "init-time": 2.48
@@ -98,6 +38,26 @@
         "npu": {
           "inference-time": 9.76,
           "init-time": 565.34
+        },
+        "gpu": {
+          "inference-time": null
+        }
+      }
+    },
+    "sl1680": {
+      "offline": {
+        "inference-time": 2.32,
+        "init-time": 1.84
+      },
+      "online": {
+        "cpu": {
+          "inference-time": 28.6,
+          "init-time": 14.34,
+          "num-threads": 4
+        },
+        "npu": {
+          "inference-time": 6.01,
+          "init-time": 381.88
         },
         "gpu": {
           "inference-time": null

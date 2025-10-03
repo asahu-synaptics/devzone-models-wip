@@ -40,33 +40,18 @@
     ]
   },
   "performance": {
-    "vs680-32": {
+    "sl1640": {
       "offline": {
-        "note": "Inference time is 14.17 ms on AOSP, 15.91 ms on ATV. Init-time is 509 ms on AOSP, 630 ms on ATV.",
-        "inference-time": 14.23,
-        "init-time": 615.31
-      },
-      "online": {}
-    },
-    "vs640-32": {
-      "offline": {
-        "inference-time": 36.73,
+        "inference-time": 36.53,
         "init-time": 595.52
       },
       "online": {}
     },
-    "vs680-64": {
+    "sl1680": {
       "offline": {
         "note": "Inference time is 14.17 ms on AOSP, 15.91 ms on ATV. Init-time is 509 ms on AOSP, 630 ms on ATV.",
         "inference-time": 14.23,
         "init-time": 57.71
-      },
-      "online": {}
-    },
-    "vs640-64": {
-      "offline": {
-        "inference-time": 36.53,
-        "init-time": 595.52
       },
       "online": {}
     }

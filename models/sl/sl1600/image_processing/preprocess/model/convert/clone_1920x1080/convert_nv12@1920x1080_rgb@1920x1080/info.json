@@ -41,31 +41,17 @@
     ]
   },
   "performance": {
-    "vs680-32": {
-      "offline": {
-        "inference-time": 30.81,
-        "init-time": 17.52
-      },
-      "online": {}
-    },
-    "vs640-32": {
-      "offline": {
-        "inference-time": 34.62,
-        "init-time": 17.48
-      },
-      "online": {}
-    },
-    "vs680-64": {
-      "offline": {
-        "inference-time": 30.81,
-        "init-time": 17.52
-      },
-      "online": {}
-    },
-    "vs640-64": {
+    "sl1640": {
       "offline": {
         "inference-time": 34.49,
         "init-time": 17.48
+      },
+      "online": {}
+    },
+    "sl1680": {
+      "offline": {
+        "inference-time": 30.81,
+        "init-time": 17.52
       },
       "online": {}
     }

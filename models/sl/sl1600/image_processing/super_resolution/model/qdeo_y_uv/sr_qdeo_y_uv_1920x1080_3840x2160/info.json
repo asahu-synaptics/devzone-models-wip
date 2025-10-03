@@ -24,19 +24,7 @@
   "model_image": "",
   "model_gif": "",
   "performance": {
-    "vs680-32": {
-      "offline": {
-        "inference-time": 25.84,
-        "init-time": 24.11
-      },
-      "online": {
-        "npu": {
-          "inference-time": 38.41,
-          "init-time": 263.33
-        }
-      }
-    },
-    "vs640-32": {
+    "sl1640": {
       "offline": {
         "inference-time": 33.56,
         "init-time": 22.03
@@ -48,7 +36,7 @@
         }
       }
     },
-    "vs680-64": {
+    "sl1680": {
       "offline": {
         "inference-time": 25.84,
         "init-time": 24.11
@@ -57,18 +45,6 @@
         "npu": {
           "inference-time": 38.41,
           "init-time": 233.49
-        }
-      }
-    },
-    "vs640-64": {
-      "offline": {
-        "inference-time": 33.56,
-        "init-time": 22.03
-      },
-      "online": {
-        "npu": {
-          "inference-time-disabled": 1199.46,
-          "init-time-disabled": 300.56
         }
       }
     }

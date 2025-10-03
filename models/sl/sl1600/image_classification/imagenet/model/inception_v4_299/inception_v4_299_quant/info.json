@@ -24,67 +24,7 @@
   "model_image": "",
   "model_gif": "",
   "performance": {
-    "vs680-32": {
-      "offline": {
-        "inference-time": 19.59,
-        "init-time": 100.79
-      },
-      "online": {
-        "cpu": {
-          "inference-time": 531.91,
-          "init-time": 432.86,
-          "num-threads": 4
-        },
-        "npu": {
-          "inference-time": 17.8,
-          "init-time": 23342.02
-        },
-        "gpu": {
-          "inference-time": null
-        }
-      }
-    },
-    "vs640-32": {
-      "offline": {
-        "inference-time": 53.82,
-        "init-time": 127.13
-      },
-      "online": {
-        "cpu": {
-          "inference-time": 603.27,
-          "init-time": 441.52,
-          "num-threads": 4
-        },
-        "npu": {
-          "inference-time": 54.07,
-          "init-time": 35915.9
-        },
-        "gpu": {
-          "inference-time": null
-        }
-      }
-    },
-    "vs680-64": {
-      "offline": {
-        "inference-time": 19.59,
-        "init-time": 100.79
-      },
-      "online": {
-        "cpu": {
-          "inference-time": 500.54,
-          "init-time": 379.33,
-          "num-threads": 4
-        },
-        "npu": {
-          "inference-time": 17.8,
-          "init-time": 13502.34
-        },
-        "gpu": {
-          "inference-time": null
-        }
-      }
-    },
-    "vs640-64": {
+    "sl1640": {
       "offline": {
         "inference-time": 53.82,
         "init-time": 127.13
@@ -98,6 +38,26 @@
         "npu": {
           "inference-time": 54.07,
           "init-time": 21480.72
+        },
+        "gpu": {
+          "inference-time": null
+        }
+      }
+    },
+    "sl1680": {
+      "offline": {
+        "inference-time": 19.59,
+        "init-time": 100.79
+      },
+      "online": {
+        "cpu": {
+          "inference-time": 500.54,
+          "init-time": 379.33,
+          "num-threads": 4
+        },
+        "npu": {
+          "inference-time": 17.8,
+          "init-time": 13502.34
         },
         "gpu": {
           "inference-time": null
