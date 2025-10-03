@@ -34,40 +34,41 @@ This particular model is compiled for **Synaptics Astra SL1680** processor. You 
 You can also find the same model compiled for **Synaptics Astra SL1640** processor pre-installed on Machina™ Dev kit with SL1640 processor.
 
 Synaptics Astra Machina™ is Modular developer kit for Astra SL-Series of high-performance IoT processors with integrated Synaptics Veros™ wireless connectivity solution. Learn more [here](https://www.synaptics.com/products/embedded-processors/astra-machina-foundation-series)
-    ### Application binary
     
-    The `synap_cli_ip` command line application supports image processing models like SR Fast Y UV 1280x720 to 3840x2160, including super-resolution.
+### Application binary
     
-    Inputs:
+The `synap_cli_ip` command line application supports image processing models like SR Fast Y UV 1280x720 to 3840x2160, including super-resolution.
     
-    * The converted synap model (`.synap` extension)
-    * Optionally, a region of interest in the image (if supported by the model)
-    * One or more raw images (`nv12`, `nv21`, `rgb`, `bgr`, `bgra`, `gray`, or `bin` formats)
+Inputs:
     
-    Outputs:
+* The converted synap model (`.synap` extension)
+* Optionally, a region of interest in the image (if supported by the model)
+* One or more raw images (`nv12`, `nv21`, `rgb`, `bgr`, `bgra`, `gray`, or `bin` formats)
     
-    * Processed image files named `outimage<i>_<W>x<H>.<ext>`, where:
+Outputs:
+    
+* Processed image files named `outimage<i>_<W>x<H>.<ext>`, where:
       - `<i>` is the input file index
       - `<W>x<H>` are the output dimensions
       - `<ext>` is the output format (e.g., `nv12` or `rgb`)
     
-    Command line usage on Astra SL1680 and SL1640:
+Command line usage on Astra SL1680 and SL1640:
     
-    ```
-    MODELS=/usr/share/synap/models/
+```
+MODELS=/usr/share/synap/models/
 
-    cd $MODELS/image_processing/super_resolution/model/fast_y_uv/sr_fast_y_uv_1280x720_3840x2160
+cd $MODELS/image_processing/super_resolution/model/fast_y_uv/sr_fast_y_uv_1280x720_3840x2160
 
-    synap_cli_ip -m model.synap ../../sample/ref_1280x720.nv12
-    ```
+synap_cli_ip -m model.synap ../../sample/ref_1280x720.nv12
+```
     
-    Example output on SL1680:
+Example output on SL1680:
     
-    ```    
-    Input image: ../../sample/ref_1280x720.nv12
-    Inference time: 11.46 ms
-    Writing output to file: outimage0_3840x2160.rgb
-    ```
+```    
+Input image: ../../sample/ref_1280x720.nv12
+Inference time: 11.46 ms
+Writing output to file: outimage0_3840x2160.rgb
+```
     
 > **💡NOTE:**
 > Input images are resized to the network input tensor size, except for `nv12`, where input files must match the network’s expected dimensions.

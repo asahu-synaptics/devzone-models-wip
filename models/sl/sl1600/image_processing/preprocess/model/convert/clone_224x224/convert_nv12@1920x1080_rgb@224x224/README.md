@@ -52,23 +52,23 @@ Outputs:
       - `<W>x<H>` are the output dimensions
       - `<ext>` is the output format (e.g., `nv12` or `rgb`)
     
-    Command line usage on Astra SL1680 and SL1640:
+Command line usage on Astra SL1680 and SL1640:
     
-    ```
-    MODELS=/usr/share/synap/models/
+```
+MODELS=/usr/share/synap/models/
 
-    cd $MODELS/image_processing/preprocess/model/convert/clone_224x224/convert_nv12@1920x1080_rgb@224x224
+cd $MODELS/image_processing/preprocess/model/convert/clone_224x224/convert_nv12@1920x1080_rgb@224x224
 
-    synap_cli_ip -m model.synap ../../sample/ref_1920x1080.nv12
-    ```
+synap_cli_ip -m model.synap ../../sample/ref_1920x1080.nv12
+```
     
-    Example output on SL1680:
+Example output on SL1680:
     
-    ```    
-    Input image: ../../sample/ref_1920x1080.nv12
-    Inference time: 1.27 ms
-    Writing output to file: outimage0_224x224.rgb
-    ```
+```    
+Input image: ../../sample/ref_1920x1080.nv12
+Inference time: 1.27 ms
+Writing output to file: outimage0_224x224.rgb
+```
     
 > **💡NOTE:**
 > Input images are resized to the network input tensor size, except for `nv12`, where input files must match the network’s expected dimensions.
@@ -94,7 +94,7 @@ Advanced users may wish to customize the source model and recompile it for the S
 Please refer to the [Bring Your Own Model](https://developer.synaptics.com/docs/sl/tutorials/bring-your-own-model) section for more information.
 
 
-    For reference, the `.synap` format model provided on the firmware image was compiled for the Synaptics Astra NPU with the following `.yaml` settings:
+For reference, the `.synap` format model provided on the firmware image was compiled for the Synaptics Astra NPU with the following `.yaml` settings:
 
 ```yaml
 security:
