@@ -1,0 +1,104 @@
+{
+  "title": "PoseNet MobileNet 0.75 Float",
+  "description": "A PoseNet model using MobileNet architecture with 75% width multiplier for efficient body pose estimation.",
+  "ai_framework": "synap",
+  "domain": "vision",
+  "sub_domain": "objectDetection",
+  "related_domain": "bodyPose",
+  "processors": [
+    "SL1680"
+  ],
+  "dev_kit": "Astra Machina Dev Kit",
+  "model_size": "",
+  "path": "docs/models/sl/sl1600/object_detection/body_pose/model/posenet_mobilenet_075/posenet_mobilenet_075_float",
+  "image_dimensions": {
+    "input": "various resolutions based on deployment",
+    "output": "various resolutions based on deployment"
+  },
+  "website": "https://developer.synaptics.com/models/sl/sl1600/object_detection/body_pose/model/posenet_mobilenet_075/posenet_mobilenet_075_float",
+  "json_github": "https://github.com/syna-astra-dev/synap-models/blob/main/object_detection/body_pose/model/posenet_mobilenet_075/posenet_mobilenet_075_float_test.json",
+  "yaml_github": "https://github.com/syna-astra-dev/synap-models/blob/main/object_detection/body_pose/model/posenet_mobilenet_075/posenet_mobilenet_075_float.yaml",
+  "public": null,
+  "hf_link": "",
+  "ms_link": "",
+  "model_image": "",
+  "model_gif": "",
+  "performance": {
+    "vs680-32": {
+      "offline": {
+        "inference-time": null
+      },
+      "online": {
+        "cpu": {
+          "inference-time": 43.03,
+          "init-time": 14.01,
+          "num-threads": 4
+        },
+        "npu": {
+          "inference-time": null
+        },
+        "gpu": {
+          "inference-time": 59.87,
+          "init-time": 1305.54
+        }
+      }
+    },
+    "vs640-32": {
+      "offline": {
+        "inference-time": null
+      },
+      "online": {
+        "cpu": {
+          "inference-time": 45.93,
+          "init-time": 54.41,
+          "num-threads": 4
+        },
+        "npu": {
+          "inference-time": null
+        },
+        "gpu": {
+          "inference-time": 90.06,
+          "init-time": 859.16
+        }
+      }
+    },
+    "vs680-64": {
+      "offline": {
+        "inference-time": null
+      },
+      "online": {
+        "cpu": {
+          "inference-time": 34.44,
+          "init-time": 11.77,
+          "num-threads": 4
+        },
+        "npu": {
+          "inference-time": null
+        },
+        "gpu": {
+          "inference-time": 61.78,
+          "init-time": 2295.25
+        }
+      }
+    },
+    "vs640-64": {
+      "offline": {
+        "inference-time": null
+      },
+      "online": {
+        "cpu": {
+          "inference-time": 27.96,
+          "init-time": 49.14,
+          "num-threads": 4
+        },
+        "npu": {
+          "inference-time": null
+        },
+        "gpu": {
+          "inference-time": 90.06,
+          "init-time": 864.31
+        }
+      }
+    }
+  }
+}

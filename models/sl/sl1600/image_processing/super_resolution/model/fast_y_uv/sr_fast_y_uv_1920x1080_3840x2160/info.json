@@ -1,0 +1,76 @@
+{
+  "title": "SR Fast Y UV 1920x1080 to 3840x2160",
+  "description": "A fast super-resolution model converting YUV images from 1920x1080 to 3840x2160 resolution.",
+  "ai_framework": "synap",
+  "domain": "vision",
+  "sub_domain": "imageProcessing",
+  "related_domain": "superResolution",
+  "processors": [
+    "SL1680"
+  ],
+  "dev_kit": "Astra Machina Dev Kit",
+  "model_size": "",
+  "path": "docs/models/sl/sl1600/image_processing/super_resolution/model/fast_y_uv/sr_fast_y_uv_1920x1080_3840x2160",
+  "image_dimensions": {
+    "input": "1920x1080",
+    "output": "3840x2160"
+  },
+  "website": "https://developer.synaptics.com/models/sl/sl1600/image_processing/super_resolution/model/fast_y_uv/sr_fast_y_uv_1920x1080_3840x2160",
+  "json_github": "https://github.com/syna-astra-dev/synap-models/blob/main/image_processing/super_resolution/model/fast_y_uv/sr_fast_y_uv_1920x1080_3840x2160_test.json",
+  "yaml_github": "https://github.com/syna-astra-dev/synap-models/blob/main/image_processing/super_resolution/model/fast_y_uv/sr_fast_y_uv_1920x1080_3840x2160.yaml",
+  "public": null,
+  "hf_link": "",
+  "ms_link": "",
+  "model_image": "",
+  "model_gif": "",
+  "performance": {
+    "vs680-32": {
+      "offline": {
+        "inference-time": 17.5,
+        "init-time": 20.4
+      },
+      "online": {
+        "npu": {
+          "inference-time": 50.56,
+          "init-time": 809.4
+        }
+      }
+    },
+    "vs640-32": {
+      "offline": {
+        "inference-time": 25.9,
+        "init-time": 20.35
+      },
+      "online": {
+        "npu": {
+          "inference-time": 85.98,
+          "init-time": 523.45
+        }
+      }
+    },
+    "vs680-64": {
+      "offline": {
+        "inference-time": 17.5,
+        "init-time": 20.4
+      },
+      "online": {
+        "npu": {
+          "inference-time": 50.56,
+          "init-time": 775.9
+        }
+      }
+    },
+    "vs640-64": {
+      "offline": {
+        "inference-time": 25.9,
+        "init-time": 20.35
+      },
+      "online": {
+        "npu": {
+          "inference-time": 86.39,
+          "init-time": 524.04
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "title": "YOLOv8s Pose",
+  "description": "A YOLOv8s model specialized for body pose estimation, optimized for real-time applications.",
+  "ai_framework": "synap",
+  "domain": "vision",
+  "sub_domain": "objectDetection",
+  "related_domain": "bodyPose",
+  "processors": [
+    "SL1680"
+  ],
+  "dev_kit": "Astra Machina Dev Kit",
+  "model_size": "",
+  "path": "docs/models/sl/sl1600/object_detection/body_pose/model/yolo_v8/yolov8s-pose",
+  "image_dimensions": {
+    "input": "352x640",
+    "output": "various resolutions based on model configuration"
+  },
+  "website": "https://developer.synaptics.com/models/sl/sl1600/object_detection/body_pose/model/yolo_v8/yolov8s-pose",
+  "json_github": "https://github.com/syna-astra-dev/synap-models/blob/main/object_detection/body_pose/model/yolo_v8/yolov8s-pose_test.json",
+  "yaml_github": "https://github.com/syna-astra-dev/synap-models/blob/main/object_detection/body_pose/model/yolo_v8/yolov8s-pose.yaml",
+  "public": true,
+  "hf_link": "",
+  "ms_link": "",
+  "model_image": "",
+  "model_gif": "",
+  "yaml_content": {
+    "inputs": [
+      {
+        "name": "images",
+        "shape": [
+          1,
+          3,
+          352,
+          640
+        ],
+        "scale": 255,
+        "format": "RGB"
+      }
+    ],
+    "outputs": [
+      {
+        "format": "yolov8 landmarks=17 visibility=1 w_scale=640 h_scale=352"
+      }
+    ],
+    "quantization": {
+      "data_type": {
+        "*": "uint8",
+        "/model.22/Concat...": "float16",
+        "/model.22/Concat_4...": "float16"
+      },
+      "scheme": "asymmetric_affine",
+      "dataset": [
+        "../../sample/*.jpg"
+      ]
+    }
+  },
+  "performance": {
+    "vs680-32": {
+      "offline": {
+        "inference-time": 30.83,
+        "init-time": 14.39
+      },
+      "online": {}
+    },
+    "vs640-32": {
+      "offline": {
+        "inference-time": 54.6,
+        "init-time": 20.47
+      },
+      "online": {}
+    },
+    "vs680-64": {
+      "offline": {
+        "inference-time": 30.79,
+        "init-time": 14.61
+      },
+      "online": {}
+    },
+    "vs640-64": {
+      "offline": {
+        "inference-time": 54.59,
+        "init-time": 20.66
+      },
+      "online": {}
+    }
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "title": "Inception V4 299 Quant",
+  "description": "A quantized Inception V4 model optimized for image classification on ImageNet at 299x299 resolution.",
+  "ai_framework": "synap",
+  "domain": "vision",
+  "sub_domain": "imageClassification",
+  "related_domain": "imagenet",
+  "processors": [
+    "SL1680"
+  ],
+  "dev_kit": "Astra Machina Dev Kit",
+  "model_size": "",
+  "path": "docs/models/sl/sl1600/image_classification/imagenet/model/inception_v4_299/inception_v4_299_quant",
+  "image_dimensions": {
+    "input": "299x299",
+    "output": "299x299"
+  },
+  "website": "https://developer.synaptics.com/models/sl/sl1600/image_classification/imagenet/model/inception_v4_299/inception_v4_299_quant",
+  "json_github": "https://github.com/syna-astra-dev/synap-models/blob/main/image_classification/imagenet/model/inception_v4_299/inception_v4_299_quant_test.json",
+  "yaml_github": "https://github.com/syna-astra-dev/synap-models/blob/main/image_classification/imagenet/model/inception_v4_299/inception_v4_299_quant.yaml",
+  "public": null,
+  "hf_link": "",
+  "ms_link": "",
+  "model_image": "",
+  "model_gif": "",
+  "performance": {
+    "vs680-32": {
+      "offline": {
+        "inference-time": 19.59,
+        "init-time": 100.79
+      },
+      "online": {
+        "cpu": {
+          "inference-time": 531.91,
+          "init-time": 432.86,
+          "num-threads": 4
+        },
+        "npu": {
+          "inference-time": 17.8,
+          "init-time": 23342.02
+        },
+        "gpu": {
+          "inference-time": null
+        }
+      }
+    },
+    "vs640-32": {
+      "offline": {
+        "inference-time": 53.82,
+        "init-time": 127.13
+      },
+      "online": {
+        "cpu": {
+          "inference-time": 603.27,
+          "init-time": 441.52,
+          "num-threads": 4
+        },
+        "npu": {
+          "inference-time": 54.07,
+          "init-time": 35915.9
+        },
+        "gpu": {
+          "inference-time": null
+        }
+      }
+    },
+    "vs680-64": {
+      "offline": {
+        "inference-time": 19.59,
+        "init-time": 100.79
+      },
+      "online": {
+        "cpu": {
+          "inference-time": 500.54,
+          "init-time": 379.33,
+          "num-threads": 4
+        },
+        "npu": {
+          "inference-time": 17.8,
+          "init-time": 13502.34
+        },
+        "gpu": {
+          "inference-time": null
+        }
+      }
+    },
+    "vs640-64": {
+      "offline": {
+        "inference-time": 53.82,
+        "init-time": 127.13
+      },
+      "online": {
+        "cpu": {
+          "inference-time": 255.94,
+          "init-time": 407.57,
+          "num-threads": 4
+        },
+        "npu": {
+          "inference-time": 54.07,
+          "init-time": 21480.72
+        },
+        "gpu": {
+          "inference-time": null
+        }
+      }
+    }
+  }
+}

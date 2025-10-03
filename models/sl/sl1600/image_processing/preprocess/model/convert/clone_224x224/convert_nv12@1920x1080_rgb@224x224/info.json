@@ -1,0 +1,73 @@
+{
+  "title": "Convert NV12@1920x1080 to RGB@224x224",
+  "description": "A preprocessing model to convert NV12 formatted images from 1920x1080 resolution to RGB format at 224x224 resolution.",
+  "ai_framework": "synap",
+  "domain": "vision",
+  "sub_domain": "imageProcessing",
+  "related_domain": "preprocess",
+  "processors": [
+    "SL1680"
+  ],
+  "dev_kit": "Astra Machina Dev Kit",
+  "model_size": "",
+  "path": "docs/models/sl/sl1600/image_processing/preprocess/model/convert/clone_224x224/convert_nv12@1920x1080_rgb@224x224",
+  "image_dimensions": {
+    "input": "NV12@1920x1080",
+    "output": "RGB@224x224"
+  },
+  "website": "https://developer.synaptics.com/models/sl/sl1600/image_processing/preprocess/model/convert/clone_224x224/convert_nv12@1920x1080_rgb@224x224",
+  "json_github": "https://github.com/syna-astra-dev/synap-models/blob/main/image_processing/preprocess/model/convert/clone_224x224/convert_nv12@1920x1080_rgb@224x224_test.json",
+  "yaml_github": "https://github.com/syna-astra-dev/synap-models/blob/main/image_processing/preprocess/model/convert/clone_224x224/convert_nv12@1920x1080_rgb@224x224.yaml",
+  "public": true,
+  "hf_link": "",
+  "ms_link": "",
+  "model_image": "",
+  "model_gif": "",
+  "yaml_content": {
+    "security": {
+      "secure": "${ENV:SYNAP_SECURITY_ENABLED}",
+      "file": "../../../../../security.yaml"
+    },
+    "inputs": [
+      {
+        "preprocess": {
+          "type": "NV12",
+          "size": [
+            1920,
+            1080
+          ]
+        }
+      }
+    ]
+  },
+  "performance": {
+    "vs680-32": {
+      "offline": {
+        "inference-time": 1.27,
+        "init-time": 14.25
+      },
+      "online": {}
+    },
+    "vs640-32": {
+      "offline": {
+        "inference-time": 1.36,
+        "init-time": 15.14
+      },
+      "online": {}
+    },
+    "vs680-64": {
+      "offline": {
+        "inference-time": 1.27,
+        "init-time": 14.25
+      },
+      "online": {}
+    },
+    "vs640-64": {
+      "offline": {
+        "inference-time": 1.25,
+        "init-time": 15.14
+      },
+      "online": {}
+    }
+  }
+}

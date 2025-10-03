@@ -1,0 +1,74 @@
+{
+  "title": "MobileNet224 Full1",
+  "description": "A lightweight MobileNet model optimized for people detection on high-resolution images.",
+  "ai_framework": "synap",
+  "domain": "vision",
+  "sub_domain": "objectDetection",
+  "related_domain": "people",
+  "processors": [
+    "SL1680"
+  ],
+  "dev_kit": "Astra Machina Dev Kit",
+  "model_size": "",
+  "path": "docs/models/sl/sl1600/object_detection/people/model/mobilenet224_full1/mobilenet224_full1/mobilenet224_full1",
+  "image_dimensions": {
+    "input": "224x224",
+    "output": "640x480"
+  },
+  "website": "https://developer.synaptics.com/models/sl/sl1600/object_detection/people/model/mobilenet224_full1/mobilenet224_full1/mobilenet224_full1",
+  "json_github": "https://github.com/syna-astra-dev/synap-models/blob/main/object_detection/people/model/mobilenet224_full1/mobilenet224_full1/mobilenet224_full1_test.json",
+  "yaml_github": "https://github.com/syna-astra-dev/synap-models/blob/main/object_detection/people/model/mobilenet224_full1/mobilenet224_full1/mobilenet224_full1.yaml",
+  "public": true,
+  "hf_link": "",
+  "ms_link": "",
+  "model_image": "",
+  "model_gif": "",
+  "yaml_content": {
+    "security": {
+      "secure": "${ENV:SYNAP_SECURITY_ENABLED}",
+      "file": "../../../../../security.yaml"
+    },
+    "outputs": [
+      {
+        "dequantize": true,
+        "format": "retinanet_boxes w_scale=640 h_scale=480 anchors=${FILE:../anchors.json}"
+      },
+      {
+        "dequantize": true,
+        "format": "per_class_confidence"
+      }
+    ]
+  },
+  "performance": {
+    "vs680-32": {
+      "offline": {
+        "note": "Inference time is 14.17 ms on AOSP, 15.91 ms on ATV. Init-time is 509 ms on AOSP, 630 ms on ATV.",
+        "inference-time": 14.23,
+        "init-time": 615.31
+      },
+      "online": {}
+    },
+    "vs640-32": {
+      "offline": {
+        "inference-time": 36.73,
+        "init-time": 595.52
+      },
+      "online": {}
+    },
+    "vs680-64": {
+      "offline": {
+        "note": "Inference time is 14.17 ms on AOSP, 15.91 ms on ATV. Init-time is 509 ms on AOSP, 630 ms on ATV.",
+        "inference-time": 14.23,
+        "init-time": 57.71
+      },
+      "online": {}
+    },
+    "vs640-64": {
+      "offline": {
+        "inference-time": 36.53,
+        "init-time": 595.52
+      },
+      "online": {}
+    }
+  }
+}

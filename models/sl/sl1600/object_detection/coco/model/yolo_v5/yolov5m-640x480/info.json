@@ -1,0 +1,85 @@
+{
+  "title": "YOLOv5m 640x480",
+  "description": "A YOLOv5m model for object detection optimized for 640x480 resolution, offering a balance between speed and accuracy.",
+  "ai_framework": "synap",
+  "domain": "vision",
+  "sub_domain": "objectDetection",
+  "related_domain": "coco",
+  "processors": [
+    "SL1680"
+  ],
+  "dev_kit": "Astra Machina Dev Kit",
+  "model_size": "",
+  "path": "docs/models/sl/sl1600/object_detection/coco/model/yolo_v5/yolov5m-640x480",
+  "image_dimensions": {
+    "input": "640x480",
+    "output": "640x480"
+  },
+  "website": "https://developer.synaptics.com/models/sl/sl1600/object_detection/coco/model/yolo_v5/yolov5m-640x480",
+  "json_github": "https://github.com/syna-astra-dev/synap-models/blob/main/object_detection/coco/model/yolo_v5/yolov5m-640x480_test.json",
+  "yaml_github": "https://github.com/syna-astra-dev/synap-models/blob/main/object_detection/coco/model/yolo_v5/yolov5m-640x480.yaml",
+  "public": true,
+  "hf_link": "",
+  "ms_link": "",
+  "model_image": "",
+  "model_gif": "",
+  "yaml_content": {
+    "data_layout": "default",
+    "outputs": [
+      {
+        "dequantize": true,
+        "format": "yolov5"
+      }
+    ]
+  },
+  "performance": {
+    "vs680-32": {
+      "offline": {
+        "inference-time": 118.82,
+        "init-time": 54.11
+      },
+      "online": {
+        "npu": {
+          "inference-time": 113.88,
+          "init-time": 10654.73
+        }
+      }
+    },
+    "vs640-32": {
+      "offline": {
+        "inference-time": 178,
+        "init-time": 60.64
+      },
+      "online": {
+        "npu": {
+          "inference-time": 175.67,
+          "init-time": 16818.68
+        }
+      }
+    },
+    "vs680-64": {
+      "offline": {
+        "inference-time": 118.82,
+        "init-time": 54.11
+      },
+      "online": {
+        "npu": {
+          "inference-time": 113.88,
+          "init-time": 6606.14
+        }
+      }
+    },
+    "vs640-64": {
+      "offline": {
+        "inference-time": 178,
+        "init-time": 60.64
+      },
+      "online": {
+        "npu": {
+          "inference-time": 175.9,
+          "init-time": 10656.94
+        }
+      }
+    }
+  }
+}

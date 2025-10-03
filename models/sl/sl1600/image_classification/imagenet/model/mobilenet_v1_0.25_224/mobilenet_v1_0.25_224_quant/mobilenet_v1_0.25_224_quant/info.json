@@ -1,0 +1,116 @@
+{
+  "title": "MobileNet V1 0.25 224 Quant",
+  "description": "A quantized MobileNet V1 model with a 0.25 width multiplier optimized for image classification on ImageNet at 224x224 resolution.",
+  "ai_framework": "synap",
+  "domain": "vision",
+  "sub_domain": "imageClassification",
+  "related_domain": "imagenet",
+  "processors": [
+    "SL1680"
+  ],
+  "dev_kit": "Astra Machina Dev Kit",
+  "model_size": "",
+  "path": "docs/models/sl/sl1600/image_classification/imagenet/model/mobilenet_v1_0.25_224/mobilenet_v1_0.25_224_quant/mobilenet_v1_0.25_224_quant",
+  "image_dimensions": {
+    "input": "224x224",
+    "output": "224x224"
+  },
+  "website": "https://developer.synaptics.com/models/sl/sl1600/image_classification/imagenet/model/mobilenet_v1_0.25_224/mobilenet_v1_0.25_224_quant/mobilenet_v1_0.25_224_quant",
+  "json_github": "https://github.com/syna-astra-dev/synap-models/blob/main/image_classification/imagenet/model/mobilenet_v1_0.25_224/mobilenet_v1_0.25_224_quant/mobilenet_v1_0.25_224_quant_test.json",
+  "yaml_github": "https://github.com/syna-astra-dev/synap-models/blob/main/image_classification/imagenet/model/mobilenet_v1_0.25_224/mobilenet_v1_0.25_224_quant/mobilenet_v1_0.25_224_quant.yaml",
+  "public": null,
+  "hf_link": "",
+  "ms_link": "",
+  "model_image": "",
+  "model_gif": "",
+  "yaml_content": {
+    "outputs": [
+      {
+        "dequantize": false,
+        "format": "confidence_array class_index_base=-1"
+      }
+    ]
+  },
+  "performance": {
+    "vs680-32": {
+      "offline": {
+        "inference-time": 0.77,
+        "init-time": 2.95
+      },
+      "online": {
+        "cpu": {
+          "inference-time": 5.09,
+          "init-time": 8.02,
+          "num-threads": 4
+        },
+        "npu": {
+          "inference-time": 0.81,
+          "init-time": 194.87
+        },
+        "gpu": {
+          "inference-time": null
+        }
+      }
+    },
+    "vs640-32": {
+      "offline": {
+        "inference-time": 0.93,
+        "init-time": 4.18
+      },
+      "online": {
+        "cpu": {
+          "inference-time": 4.13,
+          "init-time": 9.99,
+          "num-threads": 4
+        },
+        "npu": {
+          "inference-time": 0.99,
+          "init-time": 291.64
+        },
+        "gpu": {
+          "inference-time": null
+        }
+      }
+    },
+    "vs680-64": {
+      "offline": {
+        "inference-time": 0.77,
+        "init-time": 2.61
+      },
+      "online": {
+        "cpu": {
+          "inference-time": 3.37,
+          "init-time": 7.35,
+          "num-threads": 4
+        },
+        "npu": {
+          "inference-time": 0.81,
+          "init-time": 165.9
+        },
+        "gpu": {
+          "inference-time": null
+        }
+      }
+    },
+    "vs640-64": {
+      "offline": {
+        "inference-time": 0.93,
+        "init-time": 4.99
+      },
+      "online": {
+        "cpu": {
+          "inference-time": 2.8,
+          "init-time": 10.49,
+          "num-threads": 4
+        },
+        "npu": {
+          "inference-time": 1,
+          "init-time": 244.4
+        },
+        "gpu": {
+          "inference-time": null
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "title": "SR QDEO Y UV 1920x1080 to 3840x2160",
+  "description": "A QDEO-based super-resolution model converting YUV images from 1920x1080 to 3840x2160 resolution.",
+  "ai_framework": "synap",
+  "domain": "vision",
+  "sub_domain": "imageProcessing",
+  "related_domain": "superResolution",
+  "processors": [
+    "SL1680"
+  ],
+  "dev_kit": "Astra Machina Dev Kit",
+  "model_size": "",
+  "path": "docs/models/sl/sl1600/image_processing/super_resolution/model/qdeo_y_uv/sr_qdeo_y_uv_1920x1080_3840x2160",
+  "image_dimensions": {
+    "input": "1920x1080",
+    "output": "3840x2160"
+  },
+  "website": "https://developer.synaptics.com/models/sl/sl1600/image_processing/super_resolution/model/qdeo_y_uv/sr_qdeo_y_uv_1920x1080_3840x2160",
+  "json_github": "https://github.com/syna-astra-dev/synap-models/blob/main/image_processing/super_resolution/model/qdeo_y_uv/sr_qdeo_y_uv_1920x1080_3840x2160_test.json",
+  "yaml_github": "https://github.com/syna-astra-dev/synap-models/blob/main/image_processing/super_resolution/model/qdeo_y_uv/sr_qdeo_y_uv_1920x1080_3840x2160.yaml",
+  "public": null,
+  "hf_link": "",
+  "ms_link": "",
+  "model_image": "",
+  "model_gif": "",
+  "performance": {
+    "vs680-32": {
+      "offline": {
+        "inference-time": 25.84,
+        "init-time": 24.11
+      },
+      "online": {
+        "npu": {
+          "inference-time": 38.41,
+          "init-time": 263.33
+        }
+      }
+    },
+    "vs640-32": {
+      "offline": {
+        "inference-time": 33.56,
+        "init-time": 22.03
+      },
+      "online": {
+        "npu": {
+          "inference-time-disabled": 1199.46,
+          "init-time-disabled": 300.56
+        }
+      }
+    },
+    "vs680-64": {
+      "offline": {
+        "inference-time": 25.84,
+        "init-time": 24.11
+      },
+      "online": {
+        "npu": {
+          "inference-time": 38.41,
+          "init-time": 233.49
+        }
+      }
+    },
+    "vs640-64": {
+      "offline": {
+        "inference-time": 33.56,
+        "init-time": 22.03
+      },
+      "online": {
+        "npu": {
+          "inference-time-disabled": 1199.46,
+          "init-time-disabled": 300.56
+        }
+      }
+    }
+  }
+}
