@@ -1,0 +1,30 @@
+{
+  "title": "Person Pose Detection 480x640 (SR100 Series)",
+  "description": "The **Person Pose Detection 480x640** model developed by Synaptics, is a lightweight quantized `tflite` model developed for the **SR100 processor** in the Synaptics Astra\u2122  SR MCU Series. \n\nIt efficiently generates bounding boxes and identifies 17 keypoints for each person, corresponding to various body parts. Each keypoint is accompanied by a confidence score that indicates the reliability of the detection, enabling accurate estimation of the person's pose. This model can fit in Flash and designed to fit in SRAM as well.",
+  "ai_framework": "tflite",
+  "domain": "vision",
+  "sub_domain": "Astra SR",
+  "related_domain": "SR100",
+  "processors": [
+    "SR110",
+    "SR105",
+    "SR102"
+  ],
+  "dev_kit": "Astra Machina Micro Dev Kit",
+  "model_size": "",
+  "path": "",
+  "image_dimensions": {
+    "input": "",
+    "output": ""
+  },
+  "website": "https://developer.synaptics.com/models/",
+  "json_github": "",
+  "yaml_github": "",
+  "public": null,
+  "hf_link": "",
+  "ms_link": "",
+  "model_image": "",
+  "model_gif": "",
+  "yaml_content": "",
+  "performance": ""
+}
