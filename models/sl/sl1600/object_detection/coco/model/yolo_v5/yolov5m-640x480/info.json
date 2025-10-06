@@ -18,7 +18,7 @@
   "website": "https://developer.synaptics.com/models/sl/sl1600/object_detection/coco/model/yolo_v5/yolov5m-640x480",
   "json_github": "https://github.com/syna-astra-dev/synap-models/blob/main/object_detection/coco/model/yolo_v5/yolov5m-640x480_test.json",
   "yaml_github": "https://github.com/syna-astra-dev/synap-models/blob/main/object_detection/coco/model/yolo_v5/yolov5m-640x480.yaml",
-  "public": true,
+  "public": "true",
   "hf_download": "",
   "ms_download": "",
   "hf_link": "",

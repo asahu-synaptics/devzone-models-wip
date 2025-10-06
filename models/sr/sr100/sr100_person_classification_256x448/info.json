@@ -4,7 +4,7 @@
   "ai_framework": "tflite",
   "domain": "vision",
   "sub_domain": "imageClassification",
-  "related_domain": "personClassification",
+  "related_domain": "people",
   "processors": [
     "SR110",
     "SR105",
@@ -12,7 +12,7 @@
   ],
   "dev_kit": "Astra Machina Micro Dev Kit",
   "model_size": "",
-  "path": "docs/models/models/sr/sr100/sr100_person_classification_256x448",
+  "path": "docs/models/sr/sr100/sr100_person_classification_256x448",
   "image_dimensions": {
     "input": "256x448",
     "output": "2 classes"
@@ -20,8 +20,8 @@
   "website": "https://developer.synaptics.com/models//sr/sr100/sr100_person_classification_256x448",
   "json_github": "",
   "yaml_github": "",
-  "public": null,
-  "hf_download": "",
+  "public": "",
+  "hf_download": "https://huggingface.co/Synaptics/sr100_person_classification_256x448/resolve/main/person_classification_sram(256x448).tflite",
   "ms_download": "",
   "hf_link": "https://huggingface.co/Synaptics/sr100_person_classification_256x448",
   "ms_link": "https://www.modelscope.cn/models/Synaptics/sr100_person_classification_256x448",

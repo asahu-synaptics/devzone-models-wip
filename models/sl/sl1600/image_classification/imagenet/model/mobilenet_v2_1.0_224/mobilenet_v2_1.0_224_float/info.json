@@ -18,7 +18,7 @@
   "website": "https://developer.synaptics.com/models/sl/sl1600/image_classification/imagenet/model/mobilenet_v2_1.0_224/mobilenet_v2_1.0_224_float",
   "json_github": "https://github.com/syna-astra-dev/synap-models/blob/main/image_classification/imagenet/model/mobilenet_v2_1.0_224/mobilenet_v2_1.0_224_float_test.json",
   "yaml_github": "https://github.com/syna-astra-dev/synap-models/blob/main/image_classification/imagenet/model/mobilenet_v2_1.0_224/mobilenet_v2_1.0_224_float.yaml",
-  "public": null,
+  "public": "",
   "hf_download": "",
   "ms_download": "",
   "hf_link": "",

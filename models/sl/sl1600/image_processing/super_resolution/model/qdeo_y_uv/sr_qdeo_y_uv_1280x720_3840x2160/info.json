@@ -18,7 +18,7 @@
   "website": "https://developer.synaptics.com/models/sl/sl1600/image_processing/super_resolution/model/qdeo_y_uv/sr_qdeo_y_uv_1280x720_3840x2160",
   "json_github": "https://github.com/syna-astra-dev/synap-models/blob/main/image_processing/super_resolution/model/qdeo_y_uv/sr_qdeo_y_uv_1280x720_3840x2160_test.json",
   "yaml_github": "https://github.com/syna-astra-dev/synap-models/blob/main/image_processing/super_resolution/model/qdeo_y_uv/sr_qdeo_y_uv_1280x720_3840x2160.yaml",
-  "public": null,
+  "public": "",
   "hf_download": "",
   "ms_download": "",
   "hf_link": "",

@@ -18,7 +18,7 @@
   "website": "https://developer.synaptics.com/models/sl/sl1600/object_detection/people/model/mobilenet224_full1/mobilenet224_full1/mobilenet224_full1",
   "json_github": "https://github.com/syna-astra-dev/synap-models/blob/main/object_detection/people/model/mobilenet224_full1/mobilenet224_full1/mobilenet224_full1_test.json",
   "yaml_github": "https://github.com/syna-astra-dev/synap-models/blob/main/object_detection/people/model/mobilenet224_full1/mobilenet224_full1/mobilenet224_full1.yaml",
-  "public": true,
+  "public": "true",
   "hf_download": "",
   "ms_download": "",
   "hf_link": "",

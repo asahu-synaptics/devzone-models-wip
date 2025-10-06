@@ -3,7 +3,7 @@
   "description": "A YOLOv8s model specialized for body pose estimation, optimized for real-time applications.",
   "ai_framework": "synap",
   "domain": "vision",
-  "sub_domain": "objectDetection",
+  "sub_domain": "poseDetection",
   "related_domain": "bodyPose",
   "processors": [
     "SL1680"
@@ -18,7 +18,7 @@
   "website": "https://developer.synaptics.com/models/sl/sl1600/object_detection/body_pose/model/yolo_v8/yolov8s-pose",
   "json_github": "https://github.com/syna-astra-dev/synap-models/blob/main/object_detection/body_pose/model/yolo_v8/yolov8s-pose_test.json",
   "yaml_github": "https://github.com/syna-astra-dev/synap-models/blob/main/object_detection/body_pose/model/yolo_v8/yolov8s-pose.yaml",
-  "public": true,
+  "public": "true",
   "hf_download": "",
   "ms_download": "",
   "hf_link": "",

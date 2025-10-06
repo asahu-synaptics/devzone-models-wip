@@ -18,7 +18,7 @@
   "website": "https://developer.synaptics.com/models/sl/sl1600/image_processing/preprocess/model/convert/clone_1920x1080/convert_nv12@1920x1080_rgb@1920x1080",
   "json_github": "https://github.com/syna-astra-dev/synap-models/blob/main/image_processing/preprocess/model/convert/clone_1920x1080/convert_nv12@1920x1080_rgb@1920x1080_test.json",
   "yaml_github": "https://github.com/syna-astra-dev/synap-models/blob/main/image_processing/preprocess/model/convert/clone_1920x1080/convert_nv12@1920x1080_rgb@1920x1080.yaml",
-  "public": true,
+  "public": "true",
   "hf_download": "",
   "ms_download": "",
   "hf_link": "",

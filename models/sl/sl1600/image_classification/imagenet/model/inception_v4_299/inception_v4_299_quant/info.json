@@ -18,7 +18,7 @@
   "website": "https://developer.synaptics.com/models/sl/sl1600/image_classification/imagenet/model/inception_v4_299/inception_v4_299_quant",
   "json_github": "https://github.com/syna-astra-dev/synap-models/blob/main/image_classification/imagenet/model/inception_v4_299/inception_v4_299_quant_test.json",
   "yaml_github": "https://github.com/syna-astra-dev/synap-models/blob/main/image_classification/imagenet/model/inception_v4_299/inception_v4_299_quant.yaml",
-  "public": null,
+  "public": "",
   "hf_download": "",
   "ms_download": "",
   "hf_link": "",

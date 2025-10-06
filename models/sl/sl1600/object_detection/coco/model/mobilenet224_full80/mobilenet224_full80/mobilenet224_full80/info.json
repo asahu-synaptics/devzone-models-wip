@@ -18,7 +18,7 @@
   "website": "https://developer.synaptics.com/models/sl/sl1600/object_detection/coco/model/mobilenet224_full80/mobilenet224_full80/mobilenet224_full80",
   "json_github": "https://github.com/syna-astra-dev/synap-models/blob/main/object_detection/coco/model/mobilenet224_full80/mobilenet224_full80/mobilenet224_full80_test.json",
   "yaml_github": "https://github.com/syna-astra-dev/synap-models/blob/main/object_detection/coco/model/mobilenet224_full80/mobilenet224_full80/mobilenet224_full80.yaml",
-  "public": true,
+  "public": "true",
   "hf_download": "",
   "ms_download": "",
   "hf_link": "",

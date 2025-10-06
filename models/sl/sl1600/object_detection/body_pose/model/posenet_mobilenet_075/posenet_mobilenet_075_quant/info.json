@@ -3,7 +3,7 @@
   "description": "A quantized PoseNet model using MobileNet architecture with 75% width multiplier for efficient and optimized body pose estimation.",
   "ai_framework": "synap",
   "domain": "vision",
-  "sub_domain": "objectDetection",
+  "sub_domain": "poseDetection",
   "related_domain": "bodyPose",
   "processors": [
     "SL1680"
@@ -18,7 +18,7 @@
   "website": "https://developer.synaptics.com/models/sl/sl1600/object_detection/body_pose/model/posenet_mobilenet_075/posenet_mobilenet_075_quant",
   "json_github": "https://github.com/syna-astra-dev/synap-models/blob/main/object_detection/body_pose/model/posenet_mobilenet_075/posenet_mobilenet_075_quant_test.json",
   "yaml_github": "https://github.com/syna-astra-dev/synap-models/blob/main/object_detection/body_pose/model/posenet_mobilenet_075/posenet_mobilenet_075_quant.yaml",
-  "public": null,
+  "public": "",
   "hf_download": "",
   "ms_download": "",
   "hf_link": "",
