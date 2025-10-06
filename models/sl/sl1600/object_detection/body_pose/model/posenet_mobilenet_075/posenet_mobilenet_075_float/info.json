@@ -19,6 +19,8 @@
   "json_github": "https://github.com/syna-astra-dev/synap-models/blob/main/object_detection/body_pose/model/posenet_mobilenet_075/posenet_mobilenet_075_float_test.json",
   "yaml_github": "https://github.com/syna-astra-dev/synap-models/blob/main/object_detection/body_pose/model/posenet_mobilenet_075/posenet_mobilenet_075_float.yaml",
   "public": null,
+  "hf_download": "",
+  "ms_download": "",
   "hf_link": "",
   "ms_link": "",
   "model_image": "",

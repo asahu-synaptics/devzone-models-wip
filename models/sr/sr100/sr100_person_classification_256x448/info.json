@@ -21,6 +21,8 @@
   "json_github": "",
   "yaml_github": "",
   "public": null,
+  "hf_download": "",
+  "ms_download": "",
   "hf_link": "https://huggingface.co/Synaptics/sr100_person_classification_256x448",
   "ms_link": "https://www.modelscope.cn/models/Synaptics/sr100_person_classification_256x448",
   "model_image": "",

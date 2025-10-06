@@ -19,6 +19,8 @@
   "json_github": "https://github.com/syna-astra-dev/synap-models/blob/main/image_processing/preprocess/model/convert/clone_640x360/convert_nv12@1920x1080_rgb@640x360_test.json",
   "yaml_github": "https://github.com/syna-astra-dev/synap-models/blob/main/image_processing/preprocess/model/convert/clone_640x360/convert_nv12@1920x1080_rgb@640x360.yaml",
   "public": true,
+  "hf_download": "",
+  "ms_download": "",
   "hf_link": "",
   "ms_link": "",
   "model_image": "",

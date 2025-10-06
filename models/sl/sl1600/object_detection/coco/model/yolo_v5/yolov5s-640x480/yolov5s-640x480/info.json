@@ -19,6 +19,8 @@
   "json_github": "https://github.com/syna-astra-dev/synap-models/blob/main/object_detection/coco/model/yolo_v5/yolov5s-640x480/yolov5s-640x480_test.json",
   "yaml_github": "https://github.com/syna-astra-dev/synap-models/blob/main/object_detection/coco/model/yolo_v5/yolov5s-640x480/yolov5s-640x480.yaml",
   "public": true,
+  "hf_download": "",
+  "ms_download": "",
   "hf_link": "",
   "ms_link": "",
   "model_image": "",

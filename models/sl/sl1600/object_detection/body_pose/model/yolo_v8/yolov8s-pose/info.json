@@ -19,6 +19,8 @@
   "json_github": "https://github.com/syna-astra-dev/synap-models/blob/main/object_detection/body_pose/model/yolo_v8/yolov8s-pose_test.json",
   "yaml_github": "https://github.com/syna-astra-dev/synap-models/blob/main/object_detection/body_pose/model/yolo_v8/yolov8s-pose.yaml",
   "public": true,
+  "hf_download": "",
+  "ms_download": "",
   "hf_link": "",
   "ms_link": "",
   "model_image": "",

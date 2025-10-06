@@ -19,6 +19,8 @@
   "json_github": "https://github.com/syna-astra-dev/synap-models/blob/main/image_processing/super_resolution/model/fast_y_uv/sr_fast_y_uv_1280x720_3840x2160_test.json",
   "yaml_github": "https://github.com/syna-astra-dev/synap-models/blob/main/image_processing/super_resolution/model/fast_y_uv/sr_fast_y_uv_1280x720_3840x2160.yaml",
   "public": null,
+  "hf_download": "",
+  "ms_download": "",
   "hf_link": "",
   "ms_link": "",
   "model_image": "",
