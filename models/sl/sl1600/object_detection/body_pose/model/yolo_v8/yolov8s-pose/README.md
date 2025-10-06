@@ -19,7 +19,7 @@ A YOLOv8s model specialized for body pose estimation, optimized for real-time ap
 The YOLOv8s Pose model  is developed and optimized for the Synaptics Astra™ **SL1680 processor** NPU and **SL1640 processor** NPU.
 
 ## Model Features
-- **Model Type:** Object Detection
+- **Model Type:** Pose Detection
 - **Input Size:** 352x640
 - **Output Size:** various resolutions based on model configuration
 

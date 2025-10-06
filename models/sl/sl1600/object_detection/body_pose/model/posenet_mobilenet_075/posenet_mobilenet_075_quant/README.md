@@ -19,7 +19,7 @@ A quantized PoseNet model using MobileNet architecture with 75% width multiplier
 The PoseNet MobileNet 0.75 Quant model  is developed and optimized for the Synaptics Astra™ **SL1680 processor** NPU and **SL1640 processor** NPU.
 
 ## Model Features
-- **Model Type:** Object Detection
+- **Model Type:** Pose Detection
 - **Input Size:** various resolutions based on deployment
 - **Output Size:** various resolutions based on deployment
 
