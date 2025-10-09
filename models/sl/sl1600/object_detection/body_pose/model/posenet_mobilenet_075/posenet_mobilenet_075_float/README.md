@@ -94,7 +94,9 @@ Please refer to the [Bring Your Own Model](https://developer.synaptics.com/docs/
 
 ## License
 
-License for compiled model for on-device deployment is covered by under [Synaptics Astra EULA](https://github.com/synaptics-astra/doc/blob/main/EULA.rst).
+The source model is licensed under [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).
+
+The compiled model for on-device deployment is covered under the [Synaptics Astra EULA](https://github.com/synaptics-astra/doc/blob/main/EULA.rst).
 
 ## Learn More
 

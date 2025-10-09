@@ -110,7 +110,7 @@ outputs:
 
 ## License
 
-License for compiled model for on-device deployment is covered by under [Synaptics Astra EULA](https://github.com/synaptics-astra/doc/blob/main/EULA.rst).
+Both the source model and the compiled model for on-device deployment are licensed under [AGPL-3.0](https://github.com/ultralytics/ultralytics/blob/main/LICENSE).
 
 ## Learn More
 
