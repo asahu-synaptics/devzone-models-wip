@@ -23,7 +23,7 @@
   "public": "",
   "hf_download": "https://huggingface.co/Synaptics/sr100_person_pose_detection_480x640/resolve/main/person_pose_detection_flash(480x640).tflite",
   "ms_download": "",
-  "hf_link": "https://huggingface.co/Synaptics/sr100_person_pose_detection_480x6400",
+  "hf_link": "https://huggingface.co/Synaptics/sr100_person_pose_detection_480x640",
   "ms_link": "https://www.modelscope.cn/models/Synaptics/sr100_person_pose_detection_480x640",
   "model_image": "",
   "model_gif": "",
