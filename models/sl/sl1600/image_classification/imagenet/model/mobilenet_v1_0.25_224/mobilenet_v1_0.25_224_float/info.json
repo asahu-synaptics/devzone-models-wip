@@ -6,7 +6,8 @@
   "sub_domain": "imageClassification",
   "related_domain": "imagenet",
   "processors": [
-    "SL1680"
+    "SL1680",
+    "SL1640"
   ],
   "dev_kit": "Astra Machina Dev Kit",
   "model_size": "",

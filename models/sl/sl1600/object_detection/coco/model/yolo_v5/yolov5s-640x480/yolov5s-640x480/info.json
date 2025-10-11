@@ -6,7 +6,8 @@
   "sub_domain": "objectDetection",
   "related_domain": "coco",
   "processors": [
-    "SL1680"
+    "SL1680",
+    "SL1640"
   ],
   "dev_kit": "Astra Machina Dev Kit",
   "model_size": "",
