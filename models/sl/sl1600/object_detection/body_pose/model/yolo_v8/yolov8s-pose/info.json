@@ -23,8 +23,8 @@
   "ms_download": "",
   "hf_link": "",
   "ms_link": "",
-  "model_image": "",
-  "model_gif": "",
+  "model_image": "/img/models/images/Pose-Detection-1.png",
+  "model_gif": "/img/models/gifs/Pose-Detection-1.gif",
   "yaml_content": {
     "inputs": [
       {

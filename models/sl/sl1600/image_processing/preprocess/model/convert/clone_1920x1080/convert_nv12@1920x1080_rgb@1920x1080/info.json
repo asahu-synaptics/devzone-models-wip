@@ -23,8 +23,8 @@
   "ms_download": "",
   "hf_link": "",
   "ms_link": "",
-  "model_image": "",
-  "model_gif": "",
+  "model_image": "/img/models/images/Super-Resolution-1.png",
+  "model_gif": "/img/models/images/Super-Resolution-1.png",
   "yaml_content": {
     "security": {
       "secure": "${ENV:SYNAP_SECURITY_ENABLED}",

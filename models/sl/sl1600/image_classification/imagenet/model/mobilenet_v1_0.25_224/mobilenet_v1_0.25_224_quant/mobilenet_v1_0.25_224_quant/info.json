@@ -23,8 +23,8 @@
   "ms_download": "",
   "hf_link": "",
   "ms_link": "",
-  "model_image": "",
-  "model_gif": "",
+  "model_image": "/img/models/images/Classification-4.png",
+  "model_gif": "/img/models/gifs/Classification-1.gif",
   "yaml_content": {
     "outputs": [
       {

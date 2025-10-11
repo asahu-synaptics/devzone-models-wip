@@ -23,8 +23,8 @@
   "ms_download": "",
   "hf_link": "",
   "ms_link": "",
-  "model_image": "",
-  "model_gif": "",
+  "model_image": "/img/models/images/Object-Detection-1.png",
+  "model_gif": "/img/models/gifs/Object-Detection-1.gif",
   "yaml_content": {
     "data_layout": "default",
     "outputs": [
