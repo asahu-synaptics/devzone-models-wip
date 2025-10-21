@@ -25,7 +25,7 @@
   "ms_download": "",
   "hf_link": "https://huggingface.co/Synaptics/sr100_person_classification_448x640",
   "ms_link": "https://www.modelscope.cn/models/Synaptics/sr100_person_classification_448x640",
-  "model_image": "/img/models/images/Person-Classification.png",
+  "model_image": "/img/models/images/Person-Classification.jpg",
   "model_gif": "/img/models/gifs/Person-Classification.gif",
   "yaml_content": "",
   "performance": ""

@@ -11,12 +11,12 @@
   ],
   "dev_kit": "Astra Machina Dev Kit",
   "model_size": "",
-  "path": "docs/models/sl/sl1600/image_classification/imagenet/model/mobilenet_v1_0.25_224/mobilenet_v1_0.25_224_float",
+  "path": "docs/models/sl/sl1600/image_classification/imagenet/model/mobilenet_v1_0_25_224/mobilenet_v1_0_25_224_float",
   "image_dimensions": {
     "input": "224x224",
     "output": "224x224"
   },
-  "website": "https://developer.synaptics.com/models/sl/sl1600/image_classification/imagenet/model/mobilenet_v1_0.25_224/mobilenet_v1_0.25_224_float",
+  "website": "https://developer.synaptics.com/models/sl/sl1600/image_classification/imagenet/model/mobilenet_v1_0_25_224/mobilenet_v1_0_25_224_float",
   "json_github": "https://github.com/syna-astra-dev/synap-models/blob/main/image_classification/imagenet/model/mobilenet_v1_0.25_224/mobilenet_v1_0.25_224_float_test.json",
   "yaml_github": "https://github.com/syna-astra-dev/synap-models/blob/main/image_classification/imagenet/model/mobilenet_v1_0.25_224/mobilenet_v1_0.25_224_float.yaml",
   "public": "",

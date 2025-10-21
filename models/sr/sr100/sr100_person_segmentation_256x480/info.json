@@ -25,8 +25,8 @@
   "ms_download": "",
   "hf_link": "https://huggingface.co/Synaptics/sr100_person_segmentation_256x480",
   "ms_link": "https://www.modelscope.cn/models/Synaptics/sr100_person_segmentation_256x480",
-  "model_image": "/img/models/images/Person-Segmentation.png",
-  "model_gif": "/img/models/images/Person-Segmentation.png",
+  "model_image": "/img/models/images/Person-Segmentation.jpg",
+  "model_gif": "/img/models/images/Person-Segmentation.jpg",
   "yaml_content": "",
   "performance": ""
 }
