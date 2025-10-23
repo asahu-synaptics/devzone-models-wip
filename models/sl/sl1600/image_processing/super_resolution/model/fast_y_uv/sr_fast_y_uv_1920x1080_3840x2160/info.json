@@ -25,7 +25,7 @@
   "hf_link": "",
   "ms_link": "",
   "model_image": "/img/models/images/Super-Resolution-1.png",
-  "model_gif": "/img/models/images/Super-Resolution-1.png",
+  "model_gif": "/img/models/gifs/Super-Resolution-1.gif",
   "performance": {
     "sl1640": {
       "offline": {

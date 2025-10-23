@@ -24,8 +24,8 @@
   "ms_download": "",
   "hf_link": "",
   "ms_link": "",
-  "model_image": "/img/models/images/Face-Detection-1.png",
-  "model_gif": "/img/models/gifs/Face-Detection-1.gif",
+  "model_image": "/img/models/images/Person-Detection.jpg",
+  "model_gif": "/img/models/gifs/Person-Detection.gif",
   "yaml_content": {
     "security": {
       "secure": "${ENV:SYNAP_SECURITY_ENABLED}",

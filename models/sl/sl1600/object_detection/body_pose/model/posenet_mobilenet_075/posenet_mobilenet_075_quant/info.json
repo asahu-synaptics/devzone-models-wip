@@ -25,7 +25,7 @@
   "hf_link": "",
   "ms_link": "",
   "model_image": "/img/models/images/Pose-Detection-2.png",
-  "model_gif": "/img/models/gifs/Pose-Detection-1.gif",
+  "model_gif": "/img/models/gifs/Pose-Detection-2.gif",
   "performance": {
     "sl1640": {
       "offline": {
